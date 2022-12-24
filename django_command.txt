@@ -1,0 +1,165 @@
+At first internet ON and VS cmd terminal Open
+----------------------------------------------
+C:\Users\Tahmina Akter
+λ md github 
+
+C:\Users\Tahmina Akter
+λ cd github
+
+Is python properly installed?
+-------------------------------
+
+C:\Users\Tahmina Akter\github
+λ python --version
+Python 3.7.6
+
+C:\Users\Tahmina Akter\github
+λ conda
+
+C:\Users\Tahmina Akter\github
+λ conda info
+
+Now Checked python packages
+------------------------------
+
+C:\Users\Tahmina Akter\github
+λ pip --version
+pip 20.0.2 from C:\ProgramData\Anaconda3\lib\site-packages\pip (python 3.7)
+
+Checked django installation
+--------------------------
+C:\Users\Tahmina Akter\github
+λ django-admin --version
+'django-admin' is not recognized as an internal or external command,
+operable program or batch file.
+-----------------------------------------
+So
+Create virtual environment
+(for anaconda)
+-------------------------------------------------
+C:\Users\Tahmina Akter\github
+λ conda create --name virtual python=3.7
+C:\Users\Tahmina Akter\github
+λ activate virtual
+
+Now install django
+-------------------
+
+pip install pylint
+
+pip install django==3.0.8
+
+pip install djangorestframework
+
+Again Checked django installation
+--------------------------
+C:\Users\Tahmina Akter\github
+(virtual) λ django-admin --version
+3.0.8
+
+C:\Users\Tahmina Akter\github
+(virtual) λ django-admin startproject blog
+
+C:\Users\Tahmina Akter\github
+(virtual) λ ls   /   dir
+blog/
+
+C:\Users\Tahmina Akter\github
+(virtual) λ cd blog
+
+C:\Users\Tahmina Akter\github\blog
+(virtual) λ ls
+manage.py*  blog/
+
+C:\Users\Tahmina Akter\github\blog
+(virtual) λ ls blog
+__init__.py  asgi.py  settings.py  urls.py  wsgi.py
+
+-------------------------------------------------------------------------------
+
+C:\Users\Tahmina\github\blog
+(virtual) λ python -m pip install Pillow
+
+C:\Users\Tahmina\github\blog
+(virtual) λ pip install django-tinymce4-lite  ---- no need
+
+C:\Users\Tahmina\github\blog
+(virtual) λ pip install django-crispy-forms
+
+C:\Users\Tahmina\github\blog
+(virtual) λ pip install django-allauth
+
+pip freeze
+pip freeze > requirements.txt
+pip install -r requirements.txt
+
+
+C:\Users\Tahmina Akter\github\blog
+(virtual) λ python manage.py makemigrations
+C:\Python_Djanago_Website\blog
+(virtual) λ python manage.py migrate
+C:\Users\Tahmina Akter\github\blog
+(virtual) λ python manage.py runserver	
+---------------------------------------------------------------------------------
+For Authorization
+
+C:\Users\Tahmina Akter\github\blog
+(virtual) λ python manage.py createsuperuser
+Username (leave blank to use 'tahminaakter'): admin
+Email address: tahmina@simplecanbeharderthancomplex.com
+Password: simpletahu2020$@complex
+
+signup user
+name: test
+email: test@gmail.com
+pass: tahmin123@
+
+
+C:\Users\Tahmina\github\MyProject --- restapi
+(tutor) λ python manage.py createsuperuser
+Username (leave blank to use 'tahmina'):
+Email address: tahmina@simplecanbeharderthancomplex.com
+Password: tah123*wheufa
+
+C:\Users\Tahmina Akter\github\blog
+(virtual) λ python manage.py runserver			
+---------------------------------------------------------------------------------
+
+C:\Users\Tahmina Akter\github\blog
+(virtual) λ django-admin startapp website
+
+C:\Users\Tahmina Akter\github\blog
+(virtual) λ ls website
+__init__.py  admin.py  apps.py  migrations/  models.py  tests.py  views.py
+
+C:\Users\Tahmina Akter\github\blog
+(virtual) λ python manage.py runserver
+
+-----------------------------------------------------------------------------
+create static and tamplate folder under root folder
+go to settings and url-> add media root --> python manage.py collectstatic
+
+C:\Users\Tahmina Akter\github\blog
+(virtual) λ python manage.py makemigrations
+no change detected
+
+C:\Users\Tahmina Akter\github\blog
+(virtual) λ python manage.py migrate
+
+C:\Users\Tahmina Akter\github\blog
+(virtual) λ python manage.py runserver
+
+C:\Users\Tahmina Akter\github\blog
+(virtual) λ cls
+
+-------------------------------------------------------------------------------------
+
+VS Code-->cmd
+
+workon [yourEnvName]
+
+pip install pylint
+
+pip install django==2.2
+
+pip install djangorestframework
