@@ -106,19 +106,19 @@ For Authorization
 C:\Users\Tahmina Akter\github\blog
 (virtual) λ python manage.py createsuperuser
 Username (leave blank to use 'tahminaakter'): admin
-Email address: tahmina@simplecanbeharderthancomplex.com
-Password: simpletahu2020$@complex
+Email address: example@tahminaofficial.com
+Password: dbauyd#$12
 
 signup user
-name: test
-email: test@gmail.com
-pass: tahmin123@
+name: jabin
+email: jabin@gmail.com
+pass: fase4@
 
 
 C:\Users\Tahmina\github\MyProject --- restapi
 (tutor) λ python manage.py createsuperuser
 Username (leave blank to use 'tahmina'):
-Email address: tahmina@simplecanbeharderthancomplex.com
+Email address: example@tahminaofficial.com
 Password: tah123*wheufa
 
 C:\Users\Tahmina Akter\github\blog
